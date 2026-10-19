@@ -1,0 +1,8 @@
+"statistic","value"
+"Tracts with data",1316
+"Median of tract medians ($)",74319.5
+"Min ($)",13438
+"Max ($)",250001
+"90th/10th percentile ratio",3.841
+"Moran's I",0.676
+"Moran pseudo p-value",0.001

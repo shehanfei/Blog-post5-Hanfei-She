@@ -4,3 +4,4 @@ for (s in c("01_download_data.R", "02_clean_merge.R", "03_analysis_and_figures.R
   message("\n=== ", s, " ===")
   source(here("R", s), echo = FALSE)
 }
+Sys.setenv(CENSUS_API_KEY = "04f3119ed0aedc39ecfb071c646c9dd991ac21c9")
