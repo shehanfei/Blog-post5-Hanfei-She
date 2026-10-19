@@ -1,3 +1,6 @@
+---
+title: Two Cities in One County
+---
 # Two Cities in One County: Mapping Where Income Concentrates in Cook County, Illinois
 
 ## The question and why it matters
@@ -22,13 +25,13 @@ I study Cook County, Illinois, which contains Chicago and its inner suburbs, bec
 
 Before looking at geography, it helps to know how much income actually varies across tracts. The typical tract has a median household income of about $74,300, but the range is enormous: from roughly $13,400 at the bottom to $250,001 at the top. The $250,001 figure is not a coincidence. The ACS top-codes income at that value, so the richest tracts are truncated, and the real top of the distribution is probably higher. The 90th percentile tract earns about 3.8 times the 10th percentile tract.
 
-![Distribution of tract incomes](../results/figures/fig3_income_hist.png)
+![Distribution of tract incomes](results/figures/fig3_income_hist.png)
 
 *Figure 1. Distribution of tract-level median household income. The dashed line marks the median tract. The pile-up at the far right is the ACS top-code.*
 
 The histogram is right-skewed: most tracts sit between $40,000 and $100,000, with a long tail of affluent tracts. This tells us there is substantial inequality *between* neighborhoods, but it says nothing about where those neighborhoods are. The map does.
 
-![Income map](../results/figures/fig1_income_map.png)
+![Income map](results/figures/fig1_income_map.png)
 
 *Figure 2. Median household income by census tract, Cook County, ACS 2018-2022. Colors are quintiles: the bottom quintile earns below about $48,900 and the top quintile above about $112,700.*
 
@@ -42,7 +45,7 @@ Global Moran's I for log income is **0.68** (permutation p-value of 0.001, the s
 
 The local version tells us where this clustering lives.
 
-![LISA clusters](../results/figures/fig2_lisa_clusters.png)
+![LISA clusters](results/figures/fig2_lisa_clusters.png)
 
 *Figure 3. Local Moran's I clusters (p < 0.05). Red = High-High, dark blue = Low-Low, pale colors = spatial outliers, grey = no significant local clustering.*
 
