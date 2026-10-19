@@ -1,0 +1,8 @@
+.Rhistory
+.RData
+.Rproj.user/
+# Raw downloads are re-created by R/01_download_data.R
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
